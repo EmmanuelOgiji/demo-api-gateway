@@ -1,0 +1,25 @@
+*.terraform/
+*.terragrunt-cache/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+*.zip
+
+# tfvars files
+*.tfvars
+
+# lock file
+.terraform.lock.hcl
+
+
+# Crash log files
+crash.log
+
+# Build harness
+.build-harness
+build-harness/
+
+# test files
+test/
