@@ -9,6 +9,12 @@ variable "aws_region" {
   default     = "eu-west-1"
 }
 
+variable "domain_prefix" {
+  description = "Domain name prefix"
+  type        = string
+  default     = "demo"
+}
+
 variable "access_key" {
   description = "IAM Access key"
   type        = string
